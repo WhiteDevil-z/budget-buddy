@@ -1,0 +1,15 @@
+.btn-theme-primary {
+    background-color: #ff4b91;
+    color: #ffffff;
+    padding: 0.6rem;
+}
+
+.btn-social-login {
+    border: 0.5px solid;
+    padding: 0.6rem;
+}
+
+#page-signup {
+    height: -webkit-fill-available;
+    min-height: 100vh;
+}

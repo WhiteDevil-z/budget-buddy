@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Your Website Title</title>
+    <!-- Paste the Google Translate code here -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({ pageLanguage: 'en', includedLanguages: 'es,fr,de,ja,zh-CN,en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE, autoDisplay: false }, 'google_translate_element');
+        }
+
+        // Function to change the language to English
+        function setLanguageToEnglish() {
+            var selectElement = document.querySelector('.goog-te-combo');
+            selectElement.value = 'en';
+            selectElement.dispatchEvent(new Event('change'));
+        }
+        setLanguageToEnglish()
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</head>
+
+<body>
+    <!-- Your website content goes here -->
+    <div id="google_translate_element"></div>
+</body>
+
+</html>
