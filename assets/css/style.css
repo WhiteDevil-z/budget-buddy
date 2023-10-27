@@ -1,3 +1,11 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
+html,
+body {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+}
+
 .btn-theme-primary {
     background-color: #ff4b91;
     color: #ffffff;
@@ -12,4 +20,13 @@
 #page-signup {
     height: -webkit-fill-available;
     min-height: 100vh;
+}
+
+/* footer */
+#footer i {
+    font-size: 1.5rem;
+}
+
+#footer i.active {
+    color: #ff4b91;
 }
